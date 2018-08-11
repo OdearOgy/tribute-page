@@ -151,43 +151,49 @@ dd, dt {
 
 @media all and (max-width: 800px) {
   * {
-    transition: all .3s ease-in-out;
-
+    transition: all .2s ease-in-out;
   }
+
   body {
     font-size: 10%;
-    transition: all .3s ease-in-out;
+    transition: all .2s ease-in-out;
   }
 
   .list-unstyled li {
-    padding: .5% 1%;
+    padding: 2% 1%;
+    transition: all .2s ease-in-out;
+
   }
 
   #image {
-    width: 60%;
-    /* height: auto; */
-    transition: all .1s ease-in-out;
+    width: 80%;
+    transition: all .2s ease-in-out;
   }
 
   .container-style {
     width: 80%;
+    transition: all .2s ease-in-out;
+
   }
-
-
 }
 
+@media all and (min-width: 799px) {
+  * {
+    transition: all .1s ease-in-out;
+  }
 
-@media all and (min-width: 450px) {
   body {
-    font-size: 30%%;
-    transition: all .3s ease-in-out;
+    font-size: 100%;
+    transition: all .1s ease-in-out;
   }
 
   .list-unstyled li {
     padding: .5% 1%;
+    transition: all .1s ease-in-out;
   }
 
   #image {
-    width: 75%;
+    width: 90%;
+    transition: all .1s ease-in-out;
   }
 }
