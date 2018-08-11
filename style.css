@@ -6,7 +6,7 @@
 }
 
 body {
-  margin-top: 20vmin;
+  margin-top: 15vmin;
   font-family: Oswald;
   font-size: 2.5vmin;
 
@@ -21,7 +21,7 @@ h3 {
 }
 
 h1, h2, h3 {
-  margin: 1vmin 0;
+  margin: 2vmin 0;
 }
 
 h4, h5, h6 {
@@ -111,7 +111,7 @@ dd, dt {
 
 /* other classes */
 .header {
-  height: 15vmin;
+  height: 20vmin;
 }
 
 .list-unstyled {
@@ -152,4 +152,30 @@ dd, dt {
 .footer {
   padding: 2vmin 1.5vmin;
   margin: 1vmin 2vmin 3vmin;
+}
+
+
+
+@media all and (max-width: 800px) {
+  * {
+    transition: all .3s ease-in-out;
+
+  }
+  body {
+    font-size: 1.5vmin;
+    color: black;
+    transition: all .3s ease-in-out;
+  }
+
+  #image {
+    width: 80%;
+    height: auto;
+    transition: all .1s ease-in-out;
+  }
+
+  .container-style {
+    width: 80vmin;
+  }
+
+
 }
