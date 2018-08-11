@@ -155,12 +155,16 @@ dd, dt {
 
   }
   body {
-    font-size: 1.5vmin;
+    font-size: 10%;
     transition: all .3s ease-in-out;
   }
 
+  .list-unstyled {
+    padding: 5% 5%;
+  }
+
   #image {
-    width: 55%;
+    width: 60%;
     /* height: auto; */
     transition: all .1s ease-in-out;
   }
@@ -174,6 +178,15 @@ dd, dt {
 
 
 @media all and (min-width: 450px) {
+  body {
+    font-size: 30%%;
+    transition: all .3s ease-in-out;
+  }
+
+  .list-unstyled {
+    padding: 5% 5%;
+  }
+
   #image {
     width: 75%;
   }
