@@ -159,8 +159,8 @@ dd, dt {
     transition: all .3s ease-in-out;
   }
 
-  .list-unstyled {
-    padding: 5% 5%;
+  .list-unstyled li {
+    padding: .5% 1%;
   }
 
   #image {
@@ -183,8 +183,8 @@ dd, dt {
     transition: all .3s ease-in-out;
   }
 
-  .list-unstyled {
-    padding: 5% 5%;
+  .list-unstyled li {
+    padding: .5% 1%;
   }
 
   #image {
