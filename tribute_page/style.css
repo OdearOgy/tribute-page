@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all .3s ease-in-out;
+}
+
+body {
+  margin-top: 20vmin;
+  font-family: Oswald;
+  font-size: 2.5vmin;
+
+}
+
+h2 {
+  font-size: 4vmin;
+}
+
+h3 {
+  font-size: 3.5vmin;
+}
+
+h1, h2, h3 {
+  margin: 1vmin 0;
+}
+
+h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+
+a, a:visited {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+dl {
+  margin-top: 0;
+  margin-bottom: 5vmin;
+
+}
+
+dd {
+  display: block;
+  padding-left: 2vmin;
+}
+
+dt {
+  font-weight: bold;
+  font-size: 2.7vmin
+}
+
+dd, dt {
+  line-height: 1.42857143;
+}
+
+#main {
+  width: 85%;
+  height: 100%;
+  margin: auto;
+}
+
+#img-div {
+  height: auto;
+}
+
+#image {
+  max-width: 70vmax;
+  height: auto;
+  border-radius: .5vmin;
+  transition: all .3s ease-in-out;
+}
+
+#tribute-info {
+  height: auto;
+}
+
+/* utility classes */
+.t-align--center {
+  text-align: center;
+}
+
+.d-flex--center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-style {
+  width: 100%;
+  background-color: #fff;
+  border: .1vmin solid #ddd;
+  border-radius: .8vmin;
+  box-shadow: 0 0.5vmin 2vmin rgba(0, 0, 0, .3);
+  padding: 5vmin 0;
+  margin-bottom: 3vmin;
+}
+
+/* other classes */
+.header {
+  height: 15vmin;
+}
+
+.list-unstyled {
+  list-style: none;
+  padding-left: 7.5vmin;
+  padding-right: 7.5vmin;
+}
+
+.rule-container {
+  padding-left: 7.5vmin;
+  padding-right: 7.5vmin;
+  margin-bottom: 5vmin;
+}
+
+.quote-container, .add-info-container {
+  padding: 1vmin 3vmin;
+  margin: 3vmin 4vmin 0;
+}
+
+.quote-container {
+  border-left: .9vmin solid #d0d0d0;
+}
+
+.qoute-container blockquote {
+  font-size: 5vmin;
+}
+
+.q--footer {
+  font-size: 95%;
+  line-height: 1.42857143;
+  color: #777;
+}
+
+.add-info-container h3, .add-info-container a {
+  font-size: 4vmin;
+}
+
+.footer {
+  padding: 2vmin 1.5vmin;
+  margin: 1vmin 2vmin 3vmin;
+}
